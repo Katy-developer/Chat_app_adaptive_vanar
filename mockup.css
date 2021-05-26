@@ -1,5 +1,5 @@
 body{
-    background-color: #222;
+    
     padding: 10%;
 
     width: 100vw;  /*1vW  viewport width*/
@@ -8,23 +8,20 @@ body{
 }
 
 .app header {
-    background-color: rgb(82, 82, 82);
+    background-color: red;
 }
 
 .app section {
-    background-color: rgb(161, 44, 44);
+    background-color: green;
 }
 
-.app footer {
-    background-color: rgb(55, 2, 124);
+.app .list li > div {
+    background-color: aquamarine;
+    border: 1px solid #222;
 }
 
-.app header {
-    height: 10%;
-}
+
+
 .app footer {
-    height: 10%;
-}
-.app section {
-    height: 80%;
+    background-color: violet;
 }
