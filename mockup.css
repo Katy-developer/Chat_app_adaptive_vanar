@@ -1,6 +1,6 @@
 body{
     
-    padding: 10%;
+    /*padding: 10%;*/
 
     width: 100vw;  /*1vW  viewport width*/
     height: 100vh;  /*1vh  viewport height*/
@@ -17,7 +17,7 @@ body{
 
 .app .list li > div {
     background-color: aquamarine;
-    border: 1px solid #222;
+    /*border: 1px solid #222;*/
 }
 
 
