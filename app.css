@@ -2,15 +2,16 @@
      /*palette as variables*/
     --Falcon: #735560;
     --BaliHai: #85A0A6;
-    --linkWate: #ecf2f3;
+    --linkWater: #ecf2f3;
     --Dark: #222;
       /*lenght*/
     --spacer: .5rem;
+    --img_k:13;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-   
+    
 }
 
 .app {
@@ -23,8 +24,11 @@ body {
 .app header {
     height: 10vh;
     padding: var(--spacer);
+    background-color: var(--BaliHai);
+    
 
 }
+
 .app .list {
     height: 80vh;
     
@@ -40,7 +44,7 @@ body {
    /* margin: calc(-2 * var(--spaser)/ ) 0;*/
    border-bottom: 1px solid black;
 
-   scroll-snap-align: start;
+   scroll-snap-align: start; /*NEW*/
 }
 
 .app .list ul{
@@ -75,14 +79,21 @@ body {
 }
 
 .app .list li .avatar img {
-    width: 80%;
+    width: calc(var(--img_k)*var(--spacer));
 }
 
 .app footer {
     height: 10vh;
-    padding: var(--spacer);
+    padding: var(--spacer)
+    background-color: var(--BaliHai);
 }
 
+@media (orientation: landscape ) {
+    .app header h1{
+    font-size: 1.5rem;}
+
+
+}
 
 
 

@@ -8,20 +8,21 @@ body{
 }
 
 .app header {
-    background-color: red;
+    background-color: var(--BaliHai );
+    /*background-color: red;*/
 }
 
 .app section {
-    background-color: green;
+    /*background-color: green;*/
 }
 
 .app .list li > div {
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     /*border: 1px solid #222;*/
 }
 
 
 
 .app footer {
-    background-color: violet;
+    background-color: var(--BaliHai);
 }
